@@ -16,6 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
+    <!-- Custom table style template -->
+    <link href="css/table.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,10 +44,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="ovies.php">Movies<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
+                            <a class="nav-link" href="ovies.php">Movies<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="searchgraph.php">Top 10 Searches<span class="sr-only"></span></a>
@@ -60,6 +63,7 @@
                 <?php require 'moviesSearch_scr.php'; ?>
             </article>
         </div>
+        
 
         <!-- /#wrapper -->
 

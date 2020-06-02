@@ -26,7 +26,7 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">Movie DB </div>
       <div class="list-group list-group-flush">
-        <a href="numberSeperator.php" class="list-group-item list-group-item-action bg-light">Main page</a>
+        <a href="index.php" class="list-group-item list-group-item-action bg-light">Main page</a>
       </div>
     </div>
 
