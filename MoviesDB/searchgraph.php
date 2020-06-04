@@ -16,10 +16,11 @@
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
 
+  <link href="css/image.css" rel="stylesheet">
+
 </head>
 
 <body>
-
 
   <div class="d-flex" id="wrapper">
     <!-- Sidebar -->
@@ -43,10 +44,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="movies.php">Movies<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
+              <a class="nav-link" href="movies.php">Movies<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="searchgraph.php">Top 10 Searches<span class="sr-only"></span></a>
@@ -59,11 +60,10 @@
       </nav>
       <article class="col-lg-12">
         <?php include 'graph_scr.php'; ?>
-        <p class="scroll">
-          <img src="chart.png" alt="" />
+        <p class="img fluid">
+          <img src="chart.png" alt="Responsive image" />
         </p>
       </article>
-
 
       <!-- /#wrapper -->
 
